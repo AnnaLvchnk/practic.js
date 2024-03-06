@@ -1,3 +1,5 @@
+//написати функцію, яка приймає масив чисел і підносить кожне з них до квадрату
+
 function squareArr(arr) {
     for (let i = 0; i < arr.length; i++) {
         arr[i] *= arr[i]
