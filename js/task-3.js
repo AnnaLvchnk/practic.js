@@ -30,10 +30,11 @@ const people = [
 
 function addAdjective(arr) {
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i].sex === 'male') {
-            arr[i].name += ' handsome';
+        const element = arr[i];
+        if (element.sex === 'male') {
+            element.name += ' handsome';
         } else {
-            arr[i].name += ' beautiful';
+            element.name += ' beautiful';
         }
     }
     return arr;
